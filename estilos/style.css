@@ -109,6 +109,7 @@ form {
     background-color: #E8491D;
     border: 0px;
     height: 38px;
+    cursor: pointer;
 }
 
 .email {
@@ -129,7 +130,9 @@ div.card {
 }
 
 div.card > h1 {
-    margin: 18.678px 0px;
+    margin: 20px 0px;
+    line-height: 1.5em;
+    white-space: nowrap;
 }
 
 div.card > p {
