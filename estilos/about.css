@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+#container {
+    margin: auto;
+    width: 81vw;
+    overflow: hidden;
+}
+
+header {
+    background-color: #35424A;
+    border-bottom: 3px solid #E8491D;
+    padding-top: 30px;
+    min-height: 70px;
+    font-size: 15px;
+}
+
+header > div > h1 {
+    color: #fff;
+    float: left;
+    margin: 6px;
+}
+
+span.laranja {
+    color: #E8491D;
+}
+
+div > nav {
+    float: right; 
+    margin-top: 13px;
+    margin-right: 6px;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    float: left;
+}
+
+nav > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+
+a.orange {
+    color: #E8491D;
+    font-weight: bold;
+}
+
+a.orange:hover {
+    color: lightgray;
+}
+
+nav > ul > li > a:hover {
+    color: lightgray;
+    font-weight: bold;
+}
+
+/*
+section > div > h1 {
+    font-size: 55px;
+    margin-top: 109px;
+}
+
+
+section > div > p {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+*/
+
+section.cinza {
+    background-color: #35424A;
+    padding-top: 30px;
+    min-height: 70px;
+    font-size: 15px;
+}
+
+section.cinza > div > h2 {
+    color: #fff;
+    float: left;
+    margin: 8px 0px 0px 18px;
+}
+
+form {
+    float: right;
+    margin-right: 18px;
+}
+
+.b {
+    padding: 0px 20px;
+    color: #fff;
+    background-color: #E8491D;
+    border: 0px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.email {
+    padding: 4px;
+    width: 250px;
+    height: 25px;
+}
+
+section.info {
+
+}
+
+div.aboutus {
+    float: left;
+}
+
+div.aboutus > h3 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+div.aboutus > p {
+    font-size: 15px;
+    font-weight: lighter;
+    max-width: 52vw;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+div.card {
+    float: right;
+    color: #fff;
+    background-color: #35424A;
+    max-width: 290px;
+    height: 150px;
+    padding: 12px 14px;
+    margin-top: 20px;
+}
+
+div.card > h3 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+div.card > p {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: #E8491D;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 27px;
+    margin-top: 10px;
+}
